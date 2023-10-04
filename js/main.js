@@ -21,3 +21,19 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
+  $(document).ready(function(){
+    $(".reviewslider").owlCarousel(
+
+       {
+
+        items: 1,
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 3000,
+
+     
+       }
+    );
+  });
+
+
