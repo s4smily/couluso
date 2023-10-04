@@ -85,6 +85,8 @@ color: white;
 color: #2c5ba5;
 
 font-size: 16px;
+
+margin: 15px 0;
 }
 
 .explore{
@@ -102,6 +104,14 @@ margin-top: 70px;
 border-radius: 30px;
 
 font-size: 22px;
+}
+
+.explore:hover{
+
+  color: #2c5ba5;
+  background-color: #ff3334;
+  border: 1px solid #ff3334;
+
 }
 
 .slider{
@@ -283,11 +293,15 @@ margin-bottom: 10px;
 margin-bottom: 10px;
 
 color: white;
+
+font-size: 25px;
 }
 
 .feature_item p{
 
 color: #2c5ba5;
+
+font-size: 18px;
 }
 
 .feature_phone{
@@ -330,7 +344,7 @@ z-index: 1;
 
 .extra-pad{
 
-padding-left: 70px;
+padding-left: 45px;
 }
 
 /* ---------- */
@@ -345,7 +359,7 @@ padding-top: 50px;
 
 position: relative;
 
-min-height: 730px;
+min-height: 650px;
 }
 
 .cardsrow{
@@ -368,9 +382,11 @@ margin-top: 100px;
 color: white;
 
 margin: 20px 0;
+
+font-size: 25px;
 }
 
-.cards_wrap p{color: #2c5ba5;line-height: 30px;}
+.cards_wrap p{color: #2c5ba5;line-height: 30px;font-size: 18px;}
 
 .cards_photo{
 
@@ -502,3 +518,147 @@ height: 8px;
 
 border-radius: 50%;
 }
+
+/* ------------ */
+
+/* download app section */
+
+.download{
+
+background: #030710;
+
+padding-bottom: 40px;
+}
+
+.downtext{
+
+text-align: center;
+
+padding: 60px 0;
+}
+
+.downtext h4{
+
+color: white;
+
+font-size: 35px;
+}
+
+.downtext p{
+
+color: #6a7b8f;
+
+margin: 25px 0;
+
+font-size: 20px;
+}
+
+.swipertwo{
+
+width: 65%;
+}
+
+.wrap2{
+
+
+}
+
+.swiper2row{
+
+position: relative;
+}
+
+.slide2{
+
+margin: 0;
+
+height: 490px;
+}
+
+.slide2 img{
+
+  
+}
+
+.centerphoto{
+
+position: absolute;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+z-index: 1;
+
+text-align: center;
+
+bottom: 0;
+}
+
+.centerphoto img{width: 400px;/* height: 514px; */}
+
+
+.downloadbtn{
+
+font-size: 16px;
+
+width: 165px;
+
+margin: 70px auto;
+}
+
+.swiper-slide-prev{
+
+  opacity: .5;
+
+
+}
+
+.swiper-slide-next{
+
+  opacity: .5;
+}
+
+/* --------- */
+
+/* footer section */
+
+footer{
+  background-color: #010103;
+}
+
+.footerwrap{
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 30px 0;
+}
+
+.leftfooter{
+
+
+}
+
+.leftfooter a{
+
+margin-right: 16px;
+
+text-decoration: none;
+
+color: #2c5ba5;
+}
+
+.rightfooter{
+
+
+}
+
+.rightfooter a{
+
+text-decoration: none;
+
+color: #2c5ba5;
+}
+
