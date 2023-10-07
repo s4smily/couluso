@@ -690,3 +690,9 @@ left: 0;
 z-index: 2;
 }
 
+/* navbar-togger special css */
+
+.navbar-nav{
+
+  padding: 0 !important;
+}

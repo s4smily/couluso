@@ -174,12 +174,168 @@ padding-left: calc(var(--bs-gutter-x) * .5);
     display: block;
 }
 
-
-
+.nav-item {
+    margin-left: 0;
 }
 
 
-/* @media(min-width:768px) and (max-width:991px) */
+
+}
+@media(max-width:425px){
+
+
+    .banner_tittle h2 {
+        font-size: 35px;
+    }
+
+    .banner_tittle p {
+
+        font-size: 16px;
+
+    }
+
+    .explore {
+        color: #ff3334;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .swiper-slide {
+        margin: 0 10px;
+    }
+
+    .headphone_text h2 {
+    font-size: 30px;
+    }
+
+    .headphone_text {
+        margin-top: 0;
+    }
+
+    .headphone {
+        min-height: 400px;
+    }
+
+    .feature_title h2 {
+
+        font-size: 35px;
+    }
+
+    .cards_wrap img {
+        width: 40px;
+    }
+
+    .features {
+        padding-bottom: 10px;
+    }
+
+    .cards_photo {
+        width: 96%;
+        top: 32%;
+        transform: translateY(32%);
+    }
+
+    .reviewer {
+        display: block;
+    }
+
+    .reviewer_photo img {
+        display: inline-block;
+    }
+
+    .reviewer_photo {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .downloadbtn {
+        font-size: 16px !IMPORTANT;
+        margin: 30px auto;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:375px){
+
+    .banner_tittle h2 {
+        font-size: 30px;
+    }
+
+    .explore {
+        margin-top: 50px;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .swiper-slide {
+        height: fit-content;
+    }
+
+    .viewmore {
+        margin: 30px 0;
+    }
+
+    .headphone {
+        min-height: 350px;
+    }
+
+    .icon_wrap img {
+        width: 31px;
+    }
+
+    .cards_wrap img {
+        width: 30px;
+    }
+
+    .cards_photo {
+        top: 37%;
+        transform: translateY(37%);
+    }
+
+    .reviewer_photo img {
+        display: inline-block !important;
+    }
+
+    .centerphoto img {
+        height: 492px;
+    }
+
+    .downtext h4 {
+        font-size: 30px;
+    }
+
+    .downtext p {
+        margin: 0;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .downtext {
+
+        padding-top: 60px;
+    }
+
+    .downloadbtn{
+
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .leftfooter {
+        display: none;
+    }
+
+    .footerwrap{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
+
+
 
 
 
