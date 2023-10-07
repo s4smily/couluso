@@ -4,9 +4,9 @@ var swiper = new Swiper(".swiperone", {
     centeredSlides: true,
     slidesPerView: "auto",
     loop: true,
-    // autoplay: {
-    //     delay: 1000,
-    //   },
+    autoplay: {
+        delay: 1000,
+      },
     coverflowEffect: {
       rotate: 30,
       stretch: 1,
@@ -28,7 +28,7 @@ var swiper = new Swiper(".swiperone", {
 
         items: 1,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 3000,
 
      
