@@ -1,0 +1,185 @@
+@media(max-width:575px){
+
+    .navbar-toggler{
+
+        background: transparent;
+        margin-right: 20px;
+        border: none;
+        box-shadow: none;
+        
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .navbar-icon{
+
+        color: #ff3334;
+        width: 100px;
+    }
+
+    .stop{
+
+background: transparent;
+
+border: none;
+
+box-shadow: none;
+
+color: white;
+
+margin: 25px 0px;
+
+
+
+}
+    
+    .offcanvas-body{
+
+        background-color: #2c5ba5; ;
+
+    }
+
+    .offcanvas-header{
+
+background-color: #2c5ba5;
+
+padding: 0;
+
+padding-top: 15px;
+
+padding-left: 15px;
+
+padding-right: 15px;
+
+}
+
+    .navbar-nav{
+
+        text-align: center;
+    }
+
+    .nav-link{
+
+        font-weight: 400;
+        font-size: 25px;
+        text-transform: lowercase;  
+        color: white;
+    }
+
+    .nav-link:hover{
+
+        color: #ff3334 !important;
+    }
+
+    .offcanvas-title{
+
+        width: 150px;
+    }
+
+    .banner_tittle {
+
+        padding: 0;
+
+    }
+
+    .banner_tittle h2 {
+
+        padding-bottom: 20px;
+    }
+
+    .swiper {
+
+        padding-top: 100px;
+
+    }
+
+    .swiper-slide {
+
+        margin: 0 40px;
+    }
+
+    .headphone_col{
+
+        display: none;
+    }
+
+    .headphone_text{
+
+        margin-top: 50px;
+
+
+    }
+
+    .headphone{
+
+        min-height: 470px;
+    }
+
+    .feature_phone{
+
+        display: none;
+    }
+
+    .extra-pad {
+
+padding-left: calc(var(--bs-gutter-x) * .5);
+
+}
+
+.feature_title h2 {
+    margin-bottom: 60px;
+}
+
+.plate {
+    display: none;
+}
+
+.cards_photo {
+    width: 82%;
+    top: 28%;
+    transform: translateY(28%);
+}
+
+.cards_wrap {
+    margin-top: 0;
+}
+  
+
+.cards {
+    padding-top: 0;
+    min-height: 700px;
+}
+
+.review_wrap {
+    padding: 0;
+}
+
+.rightfooter {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.leftfooter {
+    text-align: center;
+}
+
+.footerwrap {
+    display: block;
+}
+
+
+
+}
+
+
+/* @media(min-width:768px) and (max-width:991px) */
+
+
+

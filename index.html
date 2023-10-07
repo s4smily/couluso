@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <!-- Font Awesome -->
 
+    <!-- WOW CSS -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+
     <!-- Owl Caraousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -35,7 +46,7 @@
     <!-- ------------------------ -->
   </head>
   <body>
-    <header>
+    <header id="home">
       <div class="container">
         <div class="row">
           <nav class="navbar navbar-expand-lg">
@@ -51,7 +62,9 @@
                 aria-controls="offcanvasNavbar"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-icon"
+                  ><i class="fa-regular fa-circle-play fa-2xl"></i
+                ></span>
               </button>
               <div
                 class="offcanvas offcanvas-end"
@@ -61,26 +74,28 @@
               >
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                    Offcanvas
+                    <img src="asset/logo.png" alt="" class="img-fluid" />
                   </h5>
                   <button
                     type="button"
-                    class="btn-close"
+                    class="stop"
                     data-bs-dismiss="offcanvas"
                     aria-label="Close"
-                  ></button>
+                  >
+                    <i class="fa-regular fa-circle-stop fa-2xl"></i>
+                  </button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#feature">Features</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Download</a>
+                      <a class="nav-link" href="#download">Download</a>
                     </li>
                   </ul>
                 </div>
@@ -96,7 +111,12 @@
     <!-- Banner Section -->
     <section class="banner">
       <div class="container">
-        <div class="row banner_tittle">
+        <div
+          class="row banner_tittle wow fadeInUp"
+          id="particles-js"
+          data-wow-duration="3s"
+          data-wow-delay="0s"
+        >
           <h2>Coeluso <span>is free PSD template</span></h2>
           <p>
             Coeluso is free PSD template with clean fonts and elegant Music
@@ -146,7 +166,10 @@
             </div>
           </div>
 
-          <div class="col-md-6 headphone_text">
+          <div
+            class="col-md-6 headphone_text wow slideInRight"
+            data-wow-duration="1s"
+          >
             <h2>Coeluso <span>is free PSD template</span></h2>
 
             <p>
@@ -168,12 +191,12 @@
     <section class="features">
       <div class="container">
         <div class="row feature_title">
-          <h2>Coeluso <span>with a lot of features</span></h2>
+          <h2 id="feature">Coeluso <span>with a lot of features</span></h2>
         </div>
 
         <div class="row featurerow">
           <div class="col-md-4 feature_col">
-            <div class="feature_item">
+            <div class="feature_item wow fadeInLeft" data-wow-duration="1s">
               <div class="icon_wrap">
                 <img src="asset/icon_volume.png" alt="" class="img-fluid" />
               </div>
@@ -184,7 +207,7 @@
               </p>
             </div>
 
-            <div class="feature_item">
+            <div class="feature_item wow fadeInLeft" data-wow-duration="1s">
               <div class="icon_wrap">
                 <img src="asset/icon_progress.png" alt="" class="img-fluid" />
               </div>
@@ -198,7 +221,12 @@
 
           <div class="col-md-4">
             <div class="feature_phone">
-              <img src="asset/phone_1.png" alt="" class="img-fluid" />
+              <img
+                src="asset/phone_1.png"
+                alt=""
+                class="img-fluid wow fadeInUp"
+                data-wow-delay="2s"
+              />
             </div>
             <div class="plate">
               <img src="asset/bottom_shade.png" alt="" class="img-fluid" />
@@ -206,7 +234,7 @@
           </div>
 
           <div class="col-md-4 feature_col extra-pad">
-            <div class="feature_item">
+            <div class="feature_item wow fadeInRight" data-wow-duration="1s">
               <div class="icon_wrap">
                 <img src="asset/icon_headphone.png" alt="" class="img-fluid" />
               </div>
@@ -217,7 +245,7 @@
               </p>
             </div>
 
-            <div class="feature_item">
+            <div class="feature_item wow fadeInRight" data-wow-duration=".5s">
               <div class="icon_wrap">
                 <img
                   src="asset/icon_unidentified.png"
@@ -244,7 +272,7 @@
       <div class="container">
         <div class="row cardsrow">
           <div class="col-md-6">
-            <div class="cards_wrap">
+            <div class="cards_wrap wow fadeInLeft" data-wow-duration="1s">
               <img src="asset/icon_power.png" alt="" class="img-fluid" />
               <h4>Lorem ipsum dolor sit amet</h4>
               <p>
@@ -348,7 +376,7 @@
     <!-- --------- -->
 
     <!-- download app section -->
-    <section class="download">
+    <section class="download" id="download">
       <div class="container">
         <div class="row downtext">
           <h4>Discover new music and stuff</h4>
@@ -411,7 +439,7 @@
               </div>
 
               <div class="rightfooter">
-                <a href="">Copyright 2023</a>
+                <a href="">Copyright 2023 | All right reserved by Couluso</a>
               </div>
             </div>
           </div>
@@ -433,6 +461,12 @@
     <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- ------- -->
+
+    <!-- WOW js -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- particles js -->
+    <script src="js/particles.min.js"></script>
 
     <!-- main js -->
     <script src="js/main.js"></script>
