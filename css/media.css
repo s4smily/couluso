@@ -241,7 +241,7 @@ padding-left: calc(var(--bs-gutter-x) * .5);
     }
 
     .reviewer_photo img {
-        display: inline-block;
+        display: inline-block !important;
     }
 
     .reviewer_photo {
